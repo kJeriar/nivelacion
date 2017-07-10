@@ -5,6 +5,11 @@ $(document).ready( function(){
 		$(".icon-arrow-left-alt").hide();
 });
 
+//"recipesArray" declarada en el archivo "data/recipes.js"
+  	renderHighlightedRecipes(recipesArray);
+  	$(".icon-arrow-left-alt").hide();
+ 	printNews();
+  });
 
 /*
 * Función que se encarga de pintar TODAS las recetas que tengan 
@@ -14,6 +19,9 @@ function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
 }
 
+
+
+ 	
 /*
 * Función que se encarga de pintar UNA recetas que tenga 
 * marcado el atributo "highlighted" como TRUE
