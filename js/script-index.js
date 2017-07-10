@@ -6,22 +6,16 @@ $(document).ready( function(){
 });
 
 //"recipesArray" declarada en el archivo "data/recipes.js"
-  	renderHighlightedRecipes(recipesArray);
-  	$(".icon-arrow-left-alt").hide();
- 	printNews();
-  });
-
 /*
 * Función que se encarga de pintar TODAS las recetas que tengan 
 * marcado el atributo "highlighted" como TRUE
+*"recipesArray" declarada en el archivo "data/recipes.js"
 */
 function renderHighlightedRecipes(recipesArray) {
+	$(".icon-arrow-left-alt").hide();
 	console.log('Recipes: ', recipesArray);
 }
 
-
-
- 	
 /*
 * Función que se encarga de pintar UNA recetas que tenga 
 * marcado el atributo "highlighted" como TRUE
