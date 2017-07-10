@@ -1,5 +1,7 @@
 var activities = [
-	{
+var activitiesArray = [
+  	{
+       	
       recipeName: 'summer-apricots-honey-panna-cotta',
       text: 'I substituted strawberries for apricots - incredible!',
       image: 'img/activity/activity-placeholder-strawberry-640x640.jpg',
