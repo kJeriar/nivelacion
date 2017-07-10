@@ -23,10 +23,9 @@ function renderHighlightedRecipes(recipesArray) {
 * archivo "templates/templates-recipe.html"
 */
 function renderRecipe(recipe) {
+	$('#newsRecipes').text('NUEVAS RECETAS')
 	console.log('Voy a pintar la receta: ', recipe);
 }
-
-
 
 /*
 * Función que se encarga de pintar todas las actividades
