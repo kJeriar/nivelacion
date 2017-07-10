@@ -12,9 +12,14 @@ $(document).ready( function(){
 *"recipesArray" declarada en el archivo "data/recipes.js"
 */
 function renderHighlightedRecipes(recipesArray) {
-	$(".icon-arrow-left-alt").hide();
-	console.log('Recipes: ', recipesArray);
-}
+//icono oculto
+  	$(".icon-arrow-left-alt").hide();
+ 	//Pinta
+  	printNews();
+ 	// data
+ 	renderHighlightedRecipes(recipesArray);
+  });
+
 
 /*
 * Función que se encarga de pintar UNA recetas que tenga 
