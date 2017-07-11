@@ -40,6 +40,10 @@ function renderRecipe(recipe) {
 */
 function renderActivities(activitiesArray) {
 	console.log('Activities: ', activitiesArray);
+	for(var i=0;i<activitiesArray.length;i++){
+		console.log('Activities: ', activitiesArray[i]);
+		renderActivity(activitiesArray[i]);
+		
 }
 
 
@@ -50,6 +54,10 @@ function renderActivities(activitiesArray) {
 * archivo "templates/templates-activity.html"
 */
 function renderActivity(recipe) {
+	
+}
+	function renderActivity(activity) {
+		console.log('pintar la actividad: ', activity);
 	
 }
 
