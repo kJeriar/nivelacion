@@ -20,7 +20,10 @@ function renderHighlightedRecipes(recipesArray) {
  	renderHighlightedRecipes(recipesArray);
   });
 
-
+//funcion para pintar la noticia, y funcion para pintar el titulo
+function printNews(){
+	$('#newsRecipes').text('receta nueva')
+}
 /*
 * Función que se encarga de pintar UNA recetas que tenga 
 * marcado el atributo "highlighted" como TRUE
