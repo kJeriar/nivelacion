@@ -61,4 +61,7 @@ function renderActivity(recipe) {
 	
 }
 
+var elemento = $(a);
+    $('.list-activities').append(elemento);
+ } 
 
