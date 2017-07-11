@@ -73,6 +73,17 @@ ol,
 ul {
   list-style: none;
 }
+
+[class^="bg-image"],
+  [class*=" bg-image"] {
+    background-image: url('../img/activity/activity-placeholder-strawberry-640x640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
 q:before,
 q:after,
 blockquote:before,
